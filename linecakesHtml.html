@@ -1,43 +1,85 @@
 <!DOCTYPE html>
-<html>																<!-- // início da página html -->
+<!-- // início da página html -->
+<html>
+  <!--// início da tag de configuração. -->
+  <head>
+    <!--// padrão unicode - carrega caracter de qualquer idioma. -->
+    <meta charset="utf-8" />
+    <!--// carregar conf. arquivo CSS. -->
+    <link rel="stylesheet" type="text/css" href="linecakesStyle.css" />
+    <link rel="Stylesheet" type="Biblioteca de componentes"
+    href="/css/bootstrap.min.css"
+    <!--// título da aba da página. -->
+    <title>LineCakes</title>
+    <!--// fim da tag de configuração. -->
+  </head>
+  <!--// início da tag de conteúdo da página -->
+  <body>
+    <!-- início do cabeçalho -->
+    <header>
+      <div class="container">
+        <div id="logo">
+          <img src="logo-linecakes.jpg" />
+        </div>
 
-<head> 																<!--// início da tag de configuração. -->
+        <div id="menu">
+          <a href="#">*Home</a>
+          <a href="#">*Quem Somos</a>
+          <a href="#">*Serviços</a>
+          <a href="#">*Fale conosco</a>
+        </div>
+      </div>
+      <!-- fim do cabeçalho -->
+    </header>
+    <!-- TESTE NÃO DEU CERTO
+		<table class="table table-hover tables-striped">
+      <tr>
+        -- CABEÇALHO DA TABELA:
+        <th>#</th>
+        <th>Cursos</th>
+      </tr>
+      <tr>
+        LINHA DA TABELA:
+        <td>1</td>
+        <td>bootstrap</td>
+      </tr>
+      <tr>
+        LINHA DA TABELA: 
+        <td>2</td>
+        <td>HTML</td>
+      </tr>
+    </table> -->
 
-	<meta charset="utf-8">											<!--// padrão unicode - carrega caracter de 																	qualquer idioma. -->
-	<link rel="stylesheet" type="text/css" href="linecakesStyle.css">	<!--// carregar conf. arquivo CSS. -->
-	<title>indexUdemy</title>  										<!--// título da aba da página. -->
-
-</head> 															<!--// fim da tag de configuração. -->					
-<body>															<!--// início da tag de conteúdo da página -->
-	
-	<header>													<!-- início do cabeçalho -->
-	<div class="container">
-		<div id="logo">
-			<img src="logo-linecakes.jpg">	
-		</div>
-		
-		<div id="menu">
-			<a href="#">*Home</a>
-			<a href="#">*Quem Somos</a>
-			<a href="#">*Serviços</a>
-			<a href="#">*Fale conosco</a>
-		</div>
-	</div>	
-	</header>													<!-- fim do cabeçalho -->
-
-	<div id="principal">
-		<div class="efeito">
-			<div class="container">
-				<h1>Bem vindo a minha página</h1>
-				<p>Carinho, dedicação, criatividade e paixão. Estes são alguns dos segredos da LineCakes para produzir seus deliciosos e queridos bolos, doces e lanches. Com o compromisso de fazer produtos saudáveis, sempre utilizando  ingredientes sadios e frescos, para que o cliente saiba que qualquer produto escolhido nas vitrines acabou de ser  feito, com os melhores ingredientes.</p>
-				<p>Uma empresa familiar, que com seriedade, respeito e muito empenho, procura trazer a todos os dias para seus clientes bolos, tortas, doces e salgados de ótima qualidade e confiabilidade, para que você “Experimente o lado doce da vida!”</p>
-			</div>	
-		</div>
-	</div>
-	
-
-	<footer>Rua 7, número: 221 - Novo Maracanaú</footer>			<!--// rodapé -->
-	
-	
-</body>															<!--// fim da tag de conteúdo da página -->	
-</html>																<!--// fim da página html -->
+    <div id="principal">
+      <div class="efeito">
+        <div class="container">
+          <h1>Bem vindo a minha página</h1>
+          <p>
+            Carinho, dedicação, criatividade e paixão. Estes são alguns dos
+            segredos da LineCakes para produzir seus deliciosos e queridos
+            bolos, doces e lanches. Com o compromisso de fazer produtos
+            saudáveis, sempre utilizando ingredientes sadios e frescos, para que
+            o cliente saiba que qualquer produto escolhido nas vitrines acabou
+            de ser feito, com os melhores ingredientes.
+          </p>
+          <p>
+            Uma empresa familiar, que com seriedade, respeito e muito empenho,
+            procura trazer a todos os dias para seus clientes bolos, tortas,
+            doces e salgados de ótima qualidade e confiabilidade, para que você
+            “Experimente o lado doce da vida!”
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--// início do rodapé -->
+    <footer>
+      Rua 7, número: 221 - Novo Maracanaú
+      <!-- JS -->
+      <script src="/jquery/jquery-3-6-0.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <!--// início do rodapé -->
+    </footer>
+  </body>
+  <!--// fim da tag de conteúdo da página -->
+</html>
+<!--// fim da página html -->
